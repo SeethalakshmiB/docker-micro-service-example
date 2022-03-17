@@ -5,8 +5,9 @@
 
 # Run Docker Container
    1. Clone this url 
-        * git clone https://github.com/Seetha1231/docker-httpd-tomcat-mysql.git
+        * git clone https://github.com/SeethalakshmiB/docker-micro-service-example.git
    2. build and configure docker containers for httpd, tomcat and mysql\n
+        * cd docker-micro-service-example
         * docker-compose up
    3. Check it in browser
         * http://localhost/helloworld-jsp/
