@@ -17,10 +17,10 @@ Docker file steps
 4. run the app
 
 Run the app in container:
-    - Make Dockerfile and add steps required for your app to run
-    - Build Docker image using Dockerfile
-        * docker build -t flask_webapp .
-    -  Run the container
-        * detached mode and publish
-        * docker run -d -p <mac_port>:<container_port> flask_webapp
-        * docker run -d -p 82:81 flask_webapp
+- Make Dockerfile and add steps required for your app to run
+- Build Docker image using Dockerfile
+    * docker build -t flask_webapp .
+-  Run the container
+    * detached mode and publish
+    * docker run -d -p <mac_port>:<container_port> flask_webapp
+    * docker run -d -p 82:81 flask_webapp
