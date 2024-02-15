@@ -1,0 +1,17 @@
+Werkzeug==3.0.1
+flask==3.0.2
+
+# flask_sqlalchemy
+Flask-SQLAlchemy==3.1.1
+mysqlclient==2.1.1
+bcrypt==4.1.2
+boto3
+
+
+# CREATE USER 'abc'@'localhost' IDENTIFIED BY 'abc@123';
+# GRANT ALL PRIVILEGES ON abc.* TO 'abc'@'localhost';
+# CREATE TABLE IF NOT EXISTS users (
+#     id INT AUTO_INCREMENT PRIMARY KEY,
+#     username VARCHAR(255) NOT NULL UNIQUE,
+#     password VARCHAR(255) NOT NULL
+# );
